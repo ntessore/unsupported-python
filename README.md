@@ -16,7 +16,8 @@ dependencies = [
 ```
 
 Installing a package which depends on `unsupported-python` will fail with an
-error message, without going back to earlier versions of said package.
+error message, without breaking the installation further by going back to
+earlier versions of said package.
 
 To allow installation of the `unsupported-python` dependency, and hence any
 package that conditionally depends on it, set the `ALLOW_UNSUPPORTED_PYTHON`
