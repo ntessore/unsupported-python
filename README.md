@@ -11,9 +11,9 @@ name = "my-test-package"
 version = "1.0.0"
 dependencies = [
     # package does not work on Python 3.11 and beyond
-    "unsupported-python==3.11 ; python_version>='3.11'",
+    "unsupported-python; python_version>='3.11'",
 ]
 ```
 
-An attempted installation of `unsupported-python` will fail with an error
-message, indicating the given version.
+Installing a package which depends on `unsupported-python` will fail with an
+error message, without going back to earlier versions of said package.
