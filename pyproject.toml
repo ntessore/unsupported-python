@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "unsupported-python"
-version = "1.0.1"
+version = "1.0.0"
 maintainers = [
     {name = "Nicolas Tessore", email = "n.tessore@ucl.ac.uk"},
 ]
